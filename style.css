@@ -1,0 +1,182 @@
+/*The '*' below is an Universel Selector which catches all of the code together*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*Common style*/
+.common-button {
+    background-color: #fd6e0a;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.outline-button {
+    background-color: #fffbfb;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    border-color: #fd6e0a;
+    cursor: pointer;
+}
+
+.hero-left-button-parent {
+    margin-top: 12px;
+}
+
+
+header {
+    background-color: ;
+}
+
+.hero-parent-root {
+    background-color: #fff8f3
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px 0px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    color: #474747;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.logo-r {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fd6e0a;
+}
+
+/* Hero section style */
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff8f3;
+}
+
+.hero-left-p-1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero-left h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 12px;
+}
+
+
+/* About me css */
+
+.about-parent {
+    background-color: #fff8f3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-parent p {
+    margin: 10px 0px;
+
+}
+
+.about-box-parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about-box-parent .box {
+    background-color: #fdd8be;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+/* What i do css */
+
+.do {
+    background-color: #fff8f3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-box-parent2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+/* Seperating 'What i do ' top and bottom for achieving desired visuals */
+
+.seperate {
+    margin: 40px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+    text-align: center;
+    padding: 20px;
+    margin: 70px auto;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+
+
+    background-color: #5b5b5b;
+    padding: 5px;
+    border-radius: 10px;
+
+    max-width: 30px;
+    max-height: 30px;
+}
